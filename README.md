@@ -1,10 +1,11 @@
 # SteamVR Watchman Dongle Flash
 Converts any plugged in Steam Controller dongles into SteamVR Watchman Dongles that you can pair with HTC Vive controllers/trackers and Valve Index controllers.
 
-Usage:
-Close SteamVR and Steam.
-Plug in any dongles you want to flash.
-Run the batch file as Administrator.
+## Usage
+
+1. Close SteamVR and Steam.
+1. Plug in any dongles you want to flash.
+1. Run the batch file as Administrator.
 
 If everything works, you should get an output similar to the following:
 ```Steam installation found at "X:\path\to\steam"
