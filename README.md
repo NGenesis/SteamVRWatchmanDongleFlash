@@ -10,7 +10,23 @@ Converts any plugged in Steam Controller dongles into SteamVR Watchman Dongles t
 If everything works, you should get an output similar to the following:
 ```Steam installation found at "X:\path\to\steam"
 SteamVR Watchman Dongle Updater utility found at "X:\path\to\steam\steamapps\common\SteamVR\tools\lighthouse\bin\win32\lighthouse_watchman_update.exe"
-Running SteamVR Watchman Dongle Updater utility...
+-----------------------------------------------------------------------------
+-                     STEAM / STEAMVR DONGLE FLASHER                        -
+-----------------------------------------------------------------------------
+
+WARNING: Before running this, ensure you do the following first:
+ - This batch file is being run with Administrative privileges.
+ - Exit SteamVR and Steam.
+ - Power off all VR headsets and VR controllers.
+ - Disconnect any dongles you don't want to flash from the computer.
+ - Connect any dongles you want to flash to the computer.
+
+1. Convert [ Steam Controller Dongle ] to [ SteamVR Watchman Dongle ]
+2. Revert [ SteamVR Watchman Dongle ] back into [ Steam Controller Dongle ]
+3. Exit
+
+Type an option from [ 1, 2, 3 ] then press ENTER: 1
+Converting all connected Steam Controller Dongles to SteamVR Watchman Dongles...
 Version:  lighthouse_watchman_update.exe (buildbot_vortex-windows_steamvr_rel_win32@vortex-windows)  05771536
 Attempting to update Watchman Dongles to version 1461100729...
 Found a dongle already in the bootloader...
