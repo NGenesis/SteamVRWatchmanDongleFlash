@@ -29,6 +29,7 @@ ECHO -                     STEAM / STEAMVR DONGLE FLASHER                       
 ECHO -----------------------------------------------------------------------------
 ECHO.
 ECHO WARNING: Before running this, ensure you do the following first:
+ECHO  - This batch file is being run with Administrative privileges.
 ECHO  - Exit SteamVR and Steam.
 ECHO  - Power off all VR headsets and VR controllers.
 ECHO  - Disconnect any dongles you don't want to flash from the computer.
@@ -51,7 +52,7 @@ PUSHD "%steampath:/=\%\steamapps\common\SteamVR\tools\lighthouse"
 ECHO Converting all connected Steam Controller Dongles to SteamVR Watchman Dongles...
 bin\win32\lighthouse_watchman_update.exe -D firmware\vr_controller\archive\htc_vrc_dongle_1461100729_2016_04_19.bin
 POPD
-ECHO Dongle flasher utility has finished.
+ECHO SteamVR Watchman Dongle Updater utility has finished.
 PAUSE
 EXIT /B
 
@@ -60,6 +61,6 @@ PUSHD "%steampath:/=\%\steamapps\common\SteamVR\tools\lighthouse"
 ECHO Reverting all connected SteamVR Watchman Dongles back into Steam Controller Dongles...
 bin\win32\lighthouse_watchman_update.exe -e firmware\vr_controller\archive\htc_vrc_dongle_1461100729_2016_04_19.bin
 POPD
-ECHO Dongle flasher utility has finished.
+ECHO SteamVR Watchman Dongle Updater utility has finished.
 PAUSE
 EXIT /B
