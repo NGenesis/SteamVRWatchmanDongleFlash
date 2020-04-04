@@ -3,8 +3,10 @@ Converts any plugged in Steam Controller dongles into SteamVR Watchman Dongles t
 
 ## Usage
 
-1. Close SteamVR and Steam.
-1. Plug in any dongles you want to flash.
+1. Exit SteamVR and Steam.
+1. Power off all VR headsets and VR controllers.
+1. Disconnect any dongles you don't want to flash from the computer.
+1. Connect any dongles you want to flash to the computer.
 1. Run the batch file as Administrator.
 
 If everything works, you should get an output similar to the following:
